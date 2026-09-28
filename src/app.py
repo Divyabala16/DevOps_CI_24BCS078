@@ -4,13 +4,12 @@ def calculate_average(marks):
 def get_result(average):
     if average >= 50:
         return "Pass"
-    return "Fail"
+    return "Fail - Need Improvement"
 
-if __name__ == "__main__":
-    marks = [90, 80, 95, 75, 90]
-    average = calculate_average(marks)
+marks = [90, 80, 95, 75, 90]
 
-    print("Marks:", marks)
-    print("Average:", average)
-    print("Result:", get_result(average))
+average = calculate_average(marks)
 
+print("Marks:", marks)
+print("Average:", average)
+print("Result:", get_result(average))
