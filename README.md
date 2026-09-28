@@ -17,3 +17,5 @@ A simple Python application that calculates the average marks of a student and d
 
 ```bash
 python src/app.py
+## Version 2
+Added Git clone, push and pull workflow demonstration.
