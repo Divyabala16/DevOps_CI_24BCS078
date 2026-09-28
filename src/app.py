@@ -7,7 +7,7 @@ def get_result(average):
     return "Fail"
 
 if __name__ == "__main__":
-    marks = [85, 78, 92, 70, 88]
+    marks = [90, 80, 95, 75, 90]
     average = calculate_average(marks)
 
     print("Marks:", marks)
