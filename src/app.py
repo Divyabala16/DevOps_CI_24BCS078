@@ -4,7 +4,7 @@ def calculate_average(marks):
 def get_result(average):
     if average >= 50:
         return "Pass"
-    return "Fail - Need Improvement"
+    return "Fail"
 
 marks = [90, 80, 95, 75, 90]
 
